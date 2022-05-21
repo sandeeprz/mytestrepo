@@ -14,7 +14,6 @@ stages:
       - job:
         steps:
           - script: |
-             echo "testing2
-             sdfsdf
-             sdfsdf"
+             python --version
+             node --version
         displayName: Multiline script
